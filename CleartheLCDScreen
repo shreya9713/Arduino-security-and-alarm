@@ -1,0 +1,12 @@
+//Clear LCD Screen 
+void cleartheLCDscreen()
+{
+lcd.setCursor(0,0); // set cursor from (0,0)
+lcd.println(" ");
+lcd.setCursor(0,1);
+lcd.println(" ");
+lcd.setCursor(0,2);
+lcd.println(" ");
+lcd.setCursor(0,3);
+lcd.println(" "); // Print clearthe screen 
+}
